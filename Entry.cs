@@ -6,12 +6,12 @@ namespace BetterDecaps
 {
     public class Entry : ThunderScript
     {
-        public static string Version = "2.1";
+        public static string Version = "2.2";
 
-        [ModOption("Enable Better Decaps", "Reduces head pop force on decapitation", defaultValueIndex = 1)]
+        [ModOption("Better Decaps", "Reduces head pop force on decapitation", defaultValueIndex = 1)]
         public static bool EnableBetterDecaps = true;
 
-        [ModOption("Enable Nonfatal Dismemberments", "Makes hand, arm and foot dismemberments nonfatal", defaultValueIndex = 1)]
+        [ModOption("Nonfatal Dismemberments", "Makes hand, arm and foot dismemberments nonfatal", defaultValueIndex = 1)]
         public static bool EnableNonfatalDismemberment = true;
 
         public override void ScriptLoaded(ModManager.ModData modData)
